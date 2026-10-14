@@ -7,12 +7,30 @@ Cuatro aplicaciones independientes para explorar los temas del curso con React, 
 
 | Unidad | Tema | Estado |
 | --- | --- | --- |
-| 1 | Electricidad, Campo Eléctrico y Potencial Eléctrico | Pendiente |
+| 1 | Electricidad, Campo Eléctrico y Potencial Eléctrico | Implementada; revisión específica en Firefox pendiente |
 | 2 | Capacitores y Dieléctricos | Implementada; verificación visual pendiente |
 | 3 | Corriente Eléctrica y Ley de Ohm | Pendiente |
 | 4 | Fuerza y Campo Magnético | Pendiente |
 
 Las carpetas de las unidades pendientes contienen únicamente una nota de estado; sus aplicaciones se desarrollarán por separado.
+
+## Ejecutar la Unidad 1
+
+Incluye hasta 10 cargas editables, cuatro ejemplos, campo y potencial por superposición, vista Canvas 2D, vista Three.js 3D, equipotenciales y trayectoria de una partícula con RK4. No utiliza backend ni base de datos.
+
+Desde la carpeta del repositorio, con Node.js 22.22.1 o un entorno compatible con Vite:
+
+```bash
+cd "Unidad 1 - Electricidad y Campo Electrico"
+npm install
+npm run dev
+```
+
+Abre la dirección indicada por Vite. Pruebas: `npm test`. Compilación: `npm run build`. La vista 3D requiere WebGL2 y aceleración gráfica.
+
+[Guía de la Unidad 1](Unidad%201%20-%20Electricidad%20y%20Campo%20Electrico/GUIA_DEL_PROYECTO.md).
+
+La carpeta anterior `Unidad 1 - Electricidad Campo Electrico y Potencial Electrico` conserva una nota que enlaza a esta aplicación; no contiene un segundo simulador.
 
 ## Ejecutar la Unidad 2
 
