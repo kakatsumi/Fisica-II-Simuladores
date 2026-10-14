@@ -7,14 +7,14 @@
 - **Universidad:** Universidad Peruana Unión (UPeU).
 - **Desarrollador:** Pedro Ricardo Alva Pardave.
 - **Usuario GitHub indicado:** kakatsumi.
-- **Repositorio privado:** https://github.com/kakatsumi/Fisica-II-Simuladores.
+- **Repositorio público:** https://github.com/kakatsumi/Fisica-II-Simuladores.
 - **Tecnologías:** React, Vite, JavaScript, CSS y SVG.
 
 El objetivo es explorar la capacitancia de un capacitor ideal de placas paralelas y su energía almacenada mediante parámetros editables y resultados inmediatos en unidades del Sistema Internacional.
 
 La aplicación implementa área, separación, material dieléctrico, constante dieléctrica manual, voltaje, representación SVG, fórmulas con sustitución de valores, validación y restablecimiento. Cumple los requisitos funcionales solicitados para la Unidad 2; falta verificar visualmente la interfaz y sus interacciones en un navegador. No tiene backend, base de datos ni funciones para guardar datos.
 
-**Estado del proyecto:** la Unidad 2 está implementada. Las unidades 1, 3 y 4 tienen carpetas con una nota de estado pendiente; todavía no contienen aplicaciones. Se creó el repositorio privado `kakatsumi/Fisica-II-Simuladores` y se configuró Git en la raíz con el remoto `origin`. La entrega inicial incluye el código de la Unidad 2 y las carpetas de las unidades pendientes.
+**Estado del proyecto:** la Unidad 2 está implementada. Las unidades 1, 3 y 4 tienen carpetas con una nota de estado pendiente; todavía no contienen aplicaciones. Se creó el repositorio público `kakatsumi/Fisica-II-Simuladores` y se configuró Git en la raíz con el remoto `origin`. La entrega inicial incluye el código de la Unidad 2 y las carpetas de las unidades pendientes.
 
 ## 2. Estructura del proyecto
 
@@ -245,15 +245,15 @@ La mejora inmediata es completar la comprobación manual en navegador. No se agr
 
 Usuario indicado: https://github.com/kakatsumi.
 
-Repositorio privado: https://github.com/kakatsumi/Fisica-II-Simuladores.
+Repositorio público: https://github.com/kakatsumi/Fisica-II-Simuladores.
 
-El repositorio fue creado como privado a petición del usuario. Se utiliza un único repositorio Git en la raíz para las cuatro unidades. Su visibilidad privada requiere acceso autorizado para ver y descargar el código.
+El repositorio es público a petición del usuario. Se utiliza un único repositorio Git en la raíz para las cuatro unidades. Cualquier persona puede ver y descargar el código.
 
 El código se puede utilizar actualmente desde la carpeta local siguiendo la sección 3. Para conservar o entregar la Unidad 2 son necesarios `src/`, `index.html`, `package.json` y `package-lock.json`; también conviene conservar `.gitignore` y esta guía. La instalación reconstruye las dependencias y la compilación reconstruye `dist/`.
 
 El `.gitignore` de la unidad excluye `node_modules/`, `dist/` y `.npm-cache/`. El `.gitignore` general también excluye archivos `.env`, registros, temporales, carpetas locales del entorno y nombres comunes de archivos de credenciales. Permite ejemplos `.env.example`. Nunca se deben incorporar credenciales al código fuente.
 
-Con una cuenta autorizada, puedes descargar el código desde GitHub mediante **Code → Download ZIP**, extraerlo y entrar en la carpeta de la Unidad 2. Como alternativa:
+Puedes descargar el código desde GitHub mediante **Code → Download ZIP**, extraerlo y entrar en la carpeta de la Unidad 2. Como alternativa:
 
 ```bash
 git clone https://github.com/kakatsumi/Fisica-II-Simuladores.git
@@ -262,4 +262,4 @@ npm install
 npm run dev
 ```
 
-Si el repositorio es privado, la descarga requiere una cuenta con acceso. Después de ejecutar `npm run dev`, abre la dirección local que indique Vite. Las unidades pendientes no tienen comandos de ejecución todavía.
+Después de ejecutar `npm run dev`, abre la dirección local que indique Vite. Las unidades pendientes no tienen comandos de ejecución todavía.
